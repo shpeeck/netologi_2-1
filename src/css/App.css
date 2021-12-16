@@ -4,6 +4,9 @@
   300,
   400italic
 );
+@import url("../components/Toolbar/style.css");
+@import url("../components/ProjectList/style.css");
+
 body,
 html {
   margin: 0;
@@ -19,9 +22,9 @@ h3 {
   margin: 0;
 }
 
-.active {
-  background: #555555;
-  color: whitesmoke;
+.container {
+  margin: 0 auto;
+  width: 960px;
 }
 
 button {
@@ -35,21 +38,4 @@ button {
 button:hover {
   background: #555555;
   color: whitesmoke;
-}
-
-.imgstyle {
-  margin: 0 auto;
-  width: 960px;
-  columns: 300px auto;
-  text-align: center;
-}
-
-img {
-  width: 300px;
-  margin: 10px;
-}
-
-.container {
-  margin: 0 auto;
-  width: 960px;
 }

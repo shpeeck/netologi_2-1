@@ -1,0 +1,11 @@
+.imgstyle {
+    margin: 0 auto;
+    width: 960px;
+    columns: 300px auto;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    margin: 10px;
+}

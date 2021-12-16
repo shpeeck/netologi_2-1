@@ -1,8 +1,5 @@
 import "./css/App.css";
-import Portfolio from "./components/Portfolio/Portfolio";
-// import Toolbar from "./components/Toolbar/Toolbar";
-
-
+import Portfolio from "./components/Portfolio";
 
 export default function App() {
   return (
